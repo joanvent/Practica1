@@ -5,16 +5,22 @@
 
 body
 {
-  background: #296d27;  
+  background: #787878;  
 }
 
 header
 {
   overflow:hidden;
   margin-bottom: px;
-  background:#000000;
+  background-color:#414040;
   width:100%;
-
+  box-shadow: black 2px 0px 10px;
+  max-width: 1500px;
+  padding:10px;
+  text-align:center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 15px;
 }
 header .titulo
 {
@@ -46,4 +52,9 @@ header nav a:hover
   margin:auto;
   overflow:hidden;
   color:white;
+}
+
+body h2, p{
+  padding-bottom: 15px;
+  padding-top: 5px;
 }
