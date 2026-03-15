@@ -6,6 +6,7 @@
 body
 {
   background: #787878;  
+  font-size: 20px;
 }
 
 header
@@ -35,7 +36,7 @@ header nav a
   line-height:normal;
   display:inline-block;
   text-decoration:none;
-  font-size:20px;
+  font-size:30¡¡20px;
   border-radius:5px;
   box-align: center;
 }
@@ -57,4 +58,29 @@ header nav a:hover
 body h2, p{
   padding-bottom: 15px;
   padding-top: 5px;
+}
+
+hr{
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+table{
+  border:1px solid black;
+border-collapse: collapse;
+  margin: 0px;
+}
+td{
+  border:1px solid black;
+}
+table.ancha{ 
+text-align: center;
+margin: auto
+
+}
+table.ancha h4{
+  padding-bottom: 7px;
+}
+table.ancha td{
+  padding: 0px 20px 0px 20px;
+
 }
