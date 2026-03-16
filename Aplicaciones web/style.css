@@ -15,7 +15,7 @@ header
   margin-bottom: px;
   background-color:#414040;
   width:100%;
-  box-shadow: black 2px 0px 10px;
+  box-shadow: rgb(0, 0, 0) 2px 0px 10px;
   max-width: 1500px;
   padding:10px;
   text-align:center;
