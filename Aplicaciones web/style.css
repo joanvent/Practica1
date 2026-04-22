@@ -95,7 +95,7 @@ hr {
 table {
     border: 1px solid #030101;
     border-collapse: collapse;
-    color: ;
+    color: rgb(255, 255, 255);
     margin: 0px;
     padding-right: 10px;
     width: 100%;
@@ -121,6 +121,6 @@ th {
 table.ancha {
     text-align: center;
     margin: auto;
-    background: #f
+    background: #ddd
 }
     
