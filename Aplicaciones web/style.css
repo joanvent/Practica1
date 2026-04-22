@@ -1,89 +1,125 @@
-*{
- margin:0; 
- padding:0;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body
-{
-  background: #787878;  
-  font-size: 20px;
+body {
+    background: linear-gradient(135deg, #6c6c6c 0%, #4a4a4a 100%);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-header
-{
-  overflow:hidden;
-  margin-bottom: px;
-  background-color:#414040;
-  width:100%;
-  box-shadow: rgb(0, 0, 0) 2px 0px 10px;
-  max-width: 1500px;
-  padding:10px;
-  text-align:center;
-  margin: 0 auto;
-  margin-bottom: 10px;
-  border-radius: 15px;
-}
-header .titulo
-{
-  color:white;
-  font-size:50px;
-  line-height:100px;
-}
-header nav a
-{
-  color:white;
-  padding:8px 25px;
-  line-height:normal;
-  display:inline-block;
-  text-decoration:none;
-  font-size:30¡¡20px;
-  border-radius:5px;
-  box-align: center;
-}
-header nav a:hover
-{
-  background-color: #66001f;
-  -webkit-transition:all 500ms ;
-  -o-transition:all 500ms ;
-}
-.todo
-{
-  width:90%;
-  max-width:1000px;
-  margin:auto;
-  overflow:hidden;
-  color:white;
+header {
+    overflow: hidden;
+    margin-bottom: 10px;
+    background: linear-gradient(135deg, #2c3e50, #1a252f);
+    width: 100%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    max-width: 1500px;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
 }
 
-
-
-body h2, p{
-  padding-bottom: 15px;
-  padding-top: 5px;
+header .titulo {
+    color: white;
+    font-size: 50px;
+    line-height: 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
-hr{
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+header nav a {
+    color: white;
+    padding: 8px 25px;
+    line-height: normal;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    margin: 0 3px;
+    font-weight: 500;
 }
-table{
-  border:1px solid black;
-border-collapse: collapse;
-  margin: 0px;
-  padding-right: 10px;
-}
-td{
-  border:1px solid black;
-}
-table.ancha{ 
-text-align: center;
-margin: auto
 
+header nav a:hover {
+    background-color: #e74c3c;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(231, 76, 60, 0.4);
 }
-table.ancha h4{
-  padding-bottom: 7px;
-}
-table.ancha td{
-  padding: 0px 20px 0px 20px;
 
+.todo {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    color: #f0f0f0;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 25px;
+    padding: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
+
+body h2, p {
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+
+h2 {
+    color: #ffffff;
+    border-left: 5px solid #e74c3c;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+p {
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+hr {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, #e74c3c, #f39c12, #e74c3c);
+    border-radius: 5px;
+}
+
+table {
+    border: 1px solid #030101;
+    border-collapse: collapse;
+    color: ;
+    margin: 0px;
+    padding-right: 10px;
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    color: #333;
+}
+
+th {
+    border: 1px solid #ddd;
+    padding: 12px;
+    background: #34495e;
+    color: white;
+    font-weight: 600;
+}
+
+table.ancha {
+    text-align: center;
+    margin: auto;
+    background: #f
+    
