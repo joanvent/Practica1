@@ -91,7 +91,12 @@ hr {
     background: linear-gradient(to right, #e74c3c, #f39c12, #e74c3c);
     border-radius: 5px;
 }
-
+table tr{
+    color: white;
+}
+table td{
+    color: white;
+}
 table {
     border: 1px solid #030101;
     border-collapse: collapse;
@@ -123,4 +128,54 @@ table.ancha {
     margin: auto;
     background: #ddd
 }
+
+
+.BotonInfo{
+    text-align: center;
+    align-content: center;
+}
+.BotonInfo summary{
+    cursor: pointer;
+    margin-left: 15px;
+    border: none;
+    width: 100%;
+    max-width: 100px;
+    background: linear-gradient(135deg, #2c3e50, #1a252f);
+    border-radius: 10px;
+    box-shadow: white 0px 0px 15px;
+    height: 40px;
     
+}
+
+.infoN{
+    background: linear-gradient(135deg, #2c3e50, #1a252f);
+    width: 100%;
+    max-width: 500px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: white 0px 0px 10px;
+}
+/*abajo hover mas grande: scale:*/
+.infoN:hover{
+    transform: scale(120%);
+}
+
+.infoN button{
+    background-color: white;
+    border: none;
+    box-shadow: white 0px 0px 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.infoN button:hover{
+    background-color: gray;
+    transform: scale(110%);
+}
+
+.infoN button:active{
+    transform: scale(80%);
+}
